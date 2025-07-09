@@ -43,6 +43,17 @@
  *  this 와 super
  *   - this: 생성된 인스턴스를 지칭
  *   - super: 상속받은 부모를 지칭
+ *   
+ * ■ Class 문법
+ * 접근제한자     |   [지정어]    |  class  | 클래스명 { 
+ * public          static                 파스칼표기법
+ * [default]       final
+ *                 abstract
+ *                  
+ *                 field;
+ *                 method;
+ *                 constructor;
+ * }
  */
 package ch06_object;
 
