@@ -1,0 +1,27 @@
+프로그래밍언어
+ 1. Python: 데이터, 인공지능
+ 2. Java: Web, APP(Android)
+ 3. C: 로봇, 공장, 영상, 게임
+
+IDE(통합개발환경) 도구
+ 
+ 1. Python: VSCode, Pycharm, Colab&Jupyter
+ 2. Java: Eclipse, IntelliJ, STS
+ 3. C: Visual Basic, VSCode
+
+
+Java
+ - JDK: Java 개발할 때 사용
+ - JRE: 런타임 실행만 가능
+
+Java 버전
+ - SE: 기본, Standard Edition
+ - EE: 기업, Web
+ - ME: 
+
+Java 개발환경 구축
+ 1. Oracle JDK 설치
+ 2. Windows 시스템 환경 변수 설정
+  - 터미널: java --version
+    	       javac --version
+ 3. Eclipse 설치

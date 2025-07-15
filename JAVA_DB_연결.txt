@@ -1,0 +1,46 @@
+JAVA - DB
+
+1. RDBMS
+  - Oracle
+  - MySQL
+  - MariaDB or PostgreSQL
+    → 보안이 중요한, 무결성이 중요한 데이터
+        ex) 개인정보, 금융, ...
+  - 티베로
+
+2. NoSQL
+  - MongoDB (Document)
+    → B-JSON
+    → 소량의 데이터가 누락되도 문제없는 데이터 (속도, 다양성)
+  - Redis (In-memory DB) 
+    → 인증/인가 DB
+    → Token(JWT)
+
+MariaDB(DBMS)
+  1. 로컬 설치 사용
+  2. 도커 컨테이너 사용
+
+배포: Docker Compose
+개발환경: Docker 개발환경 구축
+
+
+서버: 온-프레미스(직접관리)
+서버: 클라우드(AWS)
+
+개발서버:
+  - 클라우드 (AWS)
+     ㄴ Ubuntu Linux 운영
+         ㄴ Docker Compose (개발 서버)
+노트북 → Remote VSCode
+
+홈 서버 구축
+KT → 현관(모뎀기기) → 방 LAN포트 → 공유기(WAN) → 공유기 (LAN) + 서버기기
+
+- 서버: 프로그램 서비스 실행(IP:PORT)
+  기본: 127.0.0.1:8000
+  서버 IP: 192.168.0.3 (192로 시작 → 내부 IP, 외부통신X)
+  공유기 포트포워딩 설정
+  공유기: 211.13.57.98 (KT, 외부통신O)
+
+211.13.57.98:5000 → 192.168.0.3:8000
+  
